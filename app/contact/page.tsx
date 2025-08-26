@@ -40,16 +40,16 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'berat@example.com',
-      href: 'mailto:berat@example.com',
+      value: 'beratmurat1453@gmail.com',
+      href: 'mailto:beratmurat1453@gmail.com',
       description: 'Projeler ve iş teklifleri için',
       availability: '24 saat içinde yanıt'
     },
     {
       icon: Phone,
       title: 'Telefon',
-      value: '+90 5XX XXX XX XX',
-      href: 'tel:+905xxxxxxxxx',
+      value: '+90 5512046342',
+      href: 'tel:+905512046342',
       description: 'Acil durumlar ve görüşme için',
       availability: '09:00 - 18:00 arası'
     },
@@ -69,14 +69,14 @@ export default function ContactPage() {
       name: 'GitHub',
       href: 'https://github.com/beratergun',
       description: 'Kodlarımı ve projelerimi inceleyin',
-      followers: '50+'
+      followers: '3+'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
       href: 'https://linkedin.com/in/beratergun',
       description: 'Profesyonel ağım ve deneyimlerim',
-      followers: '200+'
+      followers: '500+'
     }
   ]
 

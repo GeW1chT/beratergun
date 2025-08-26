@@ -16,9 +16,9 @@ export default function Header() {
   ]
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/beratergun', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/beratergun', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:berater@example.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/GeW1chT', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/berat-erg%C3%BCn-1b4269258/', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:beratmurat1453@gmail.com', label: 'Email' },
   ]
 
   return (

@@ -7,83 +7,98 @@ export default function ProjectsPage() {
   const [activeFilter, setActiveFilter] = useState('all')
 
   const projects = [
-    {
-      id: 1,
-      title: 'E-Ticaret Platformu',
-      description: 'Modern e-ticaret sitesi. Ürün katalogu, sepet sistemi, ödeme entegrasyonu ve admin paneli içeren full-stack uygulama.',
-      longDescription: 'Next.js ve TypeScript kullanarak geliştirdiğim modern e-ticaret platformu. Prisma ORM ile PostgreSQL veritabanı, Stripe ödeme entegrasyonu ve responsive tasarım özellikleri içeriyor.',
-      image: '/images/project-ecommerce.jpg',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Prisma', 'PostgreSQL', 'Stripe'],
-      githubUrl: 'https://github.com/beratergun/ecommerce-platform',
-      liveUrl: 'https://ecommerce-demo.vercel.app',
-      category: 'web',
-      featured: true,
-      status: 'Tamamlandı'
-    },
-    {
-      id: 2,
-      title: 'Görev Yönetim Uygulaması',
-      description: 'Flutter ile geliştirilen mobil görev takip uygulaması. Offline çalışma, senkronizasyon ve bildirim özellikleri.',
-      longDescription: 'Flutter ve Dart kullanarak geliştirdiğim cross-platform mobil uygulama. Riverpod state management, Hive local database ve Firebase backend entegrasyonu.',
-      image: '/images/project-taskapp.jpg',
-      technologies: ['Flutter', 'Dart', 'Firebase', 'Riverpod', 'Hive', 'Push Notifications'],
-      githubUrl: 'https://github.com/beratergun/task-manager-flutter',
-      category: 'mobile',
-      featured: true,
-      status: 'Geliştiriliyor'
-    },
-    {
-      id: 3,
-      title: 'Kişisel Blog Sistemi',
-      description: 'MDX destekli blog sitesi. SEO optimizasyonu, dark mode ve dinamik içerik yönetimi özellikleri.',
-      longDescription: 'Next.js 14 App Router kullanarak geliştirdiğim blog platformu. MDX ile markdown desteği, syntax highlighting ve otomatik SEO optimizasyonu.',
-      image: '/images/project-blog.jpg',
-      technologies: ['Next.js', 'MDX', 'TypeScript', 'Tailwind CSS', 'Vercel'],
-      githubUrl: 'https://github.com/beratergun/personal-blog',
-      liveUrl: 'https://berat-blog.vercel.app',
-      category: 'web',
-      featured: true,
-      status: 'Tamamlandı'
-    },
-    {
-      id: 4,
-      title: 'Hava Durumu Uygulaması',
-      description: 'OpenWeatherMap API entegrasyonu ile çalışan Flutter uygulaması. 5 günlük hava durumu tahmini.',
-      longDescription: 'Flutter ve BLoC pattern kullanarak geliştirdiğim hava durumu uygulaması. Lokasyon servisleri, API entegrasyonu ve modern UI tasarımı.',
-      image: '/images/project-weather.jpg',
-      technologies: ['Flutter', 'BLoC', 'REST API', 'Geolocator'],
-      githubUrl: 'https://github.com/beratergun/weather-app',
-      category: 'mobile',
-      featured: false,
-      status: 'Tamamlandı'
-    },
-    {
-      id: 5,
-      title: 'URL Kısaltma Servisi',
-      description: 'Link kısaltma servisi - Next.js ve MongoDB ile geliştirilen full-stack web uygulaması.',
-      longDescription: 'Next.js API routes ve MongoDB kullanarak geliştirdiğim URL shortener servisi. QR kod oluşturma, link analitikleri ve özel domain desteği.',
-      image: '/images/project-url.jpg',
-      technologies: ['Next.js', 'MongoDB', 'TypeScript', 'Chart.js'],
-      githubUrl: 'https://github.com/beratergun/url-shortener',
-      liveUrl: 'https://short-url-demo.vercel.app',
-      category: 'web',
-      featured: false,
-      status: 'Tamamlandı'
-    },
-    {
-      id: 6,
-      title: 'Harcama Takip Uygulaması',
-      description: 'Kişisel finans yönetimi için React ile geliştirilen web uygulaması. Grafik analizi ve bütçe takibi.',
-      longDescription: 'React ve Chart.js kullanarak geliştirdiğim kişisel finans uygulaması. Local storage ile veri saklama, kategori bazlı harcama analizi.',
-      image: '/images/project-expense.jpg',
-      technologies: ['React', 'Chart.js', 'Local Storage', 'CSS3'],
-      githubUrl: 'https://github.com/beratergun/expense-tracker',
-      liveUrl: 'https://expense-tracker-demo.netlify.app',
-      category: 'web',
-      featured: false,
-      status: 'Tamamlandı'
-    }
-  ]
+    {
+      id: 1,
+      title: 'Üsküdar İcadiye Spor',
+      description: 'Üsküdar İcadiye Spor kulübü için tasarlanmış modern web sitesi.',
+      longDescription: 'TypeScript, JavaScript ve CSS teknolojileri kullanılarak geliştirilmiş, kulüp hakkında bilgi veren ve etkinlikleri duyuran bir web sitesi.',
+      image: '/images/project-uskudar.jpg',
+      technologies: ['TypeScript', 'JavaScript', 'CSS'],
+      githubUrl: 'https://github.com/GeW1chT/uskudar-icadiyespor',
+      liveUrl: 'https://uskudar-icadiyespor.vercel.app',
+      category: 'web',
+      featured: true,
+      status: 'Tamamlandı'
+    },
+    {
+      id: 2,
+      title: 'Ortakya',
+      description: 'Next.js ile geliştirilen gerçek zamanlı sosyal medya platformu.',
+      longDescription: 'JavaScript, TypeScript ve CSS teknolojileri ile geliştirilen "Ortakya", gerçek zamanlı içerik paylaşımı ve etkileşim imkanı sunan bir platformdur.',
+      image: '/images/project-ortakya.jpg',
+      technologies: ['Next.js', 'JavaScript', 'TypeScript', 'CSS'],
+      githubUrl: 'https://github.com/GeW1chT/ortakya',
+      liveUrl: null,
+      category: 'web',
+      featured: false,
+      status: 'Geliştiriliyor'
+    },
+    {
+      id: 3,
+      title: 'CVerly',
+      description: 'Modern ve profesyonel CV’ler oluşturabileceğiniz web sitesi.',
+      longDescription: 'TypeScript ve CSS ağırlıklı olarak geliştirilen "CVerly", kullanıcıların kolayca modern ve şık özgeçmişler hazırlamasına olanak tanır.',
+      image: '/images/project-cverly.jpg',
+      technologies: ['TypeScript', 'CSS', 'JavaScript'],
+      githubUrl: 'https://github.com/GeW1chT/CVerly',
+      liveUrl: 'https://cverly.vercel.app',
+      category: 'web',
+      featured: true,
+      status: 'Tamamlandı'
+    },
+    {
+      id: 4,
+      title: 'Mizan Yönetim Uygulaması',
+      description: 'Mizan yönetim paneli için geliştirilen bir mobil uygulama.',
+      longDescription: 'Dart ve diğer teknolojiler kullanılarak mobil platformlar için hayata geçirilen bu uygulama, yönetim paneli işlemlerinin mobil cihaz üzerinden takibini sağlar.',
+      image: '/images/project-mizan.jpg',
+      technologies: ['Dart', 'C++', 'CMake'],
+      githubUrl: 'https://github.com/GeW1chT/mizan_yonetim_app',
+      liveUrl: null,
+      category: 'mobile',
+      featured: true,
+      status: 'Tamamlandı'
+    },
+    {
+      id: 5,
+      title: 'Logomania',
+      description: 'Futbol, basketbol gibi spor dallarının logolarını tahmin etmeye dayalı mobil oyun.',
+      longDescription: 'Dart ve çeşitli teknolojilerle geliştirilen "Logomania", eğlenceli ve interaktif bir mobil deneyim sunar.',
+      image: '/images/project-logomania.jpg',
+      technologies: ['Dart', 'C++', 'CMake', 'Swift'],
+      githubUrl: 'https://github.com/GeW1chT/logomania',
+      liveUrl: null,
+      category: 'mobile',
+      featured: true,
+      status: 'Tamamlandı'
+    },
+    {
+      id: 6,
+      title: 'Yemek Tarifi Uygulaması',
+      description: 'Çeşitli yemek tariflerini içeren bir mobil uygulama.',
+      longDescription: 'JavaScript ile geliştirilen bu uygulama, kullanıcılara farklı yemek tariflerine kolayca erişim imkanı sunar.',
+      image: '/images/project-yemek.jpg',
+      technologies: ['JavaScript'],
+      githubUrl: 'https://github.com/GeW1chT/yemektarifi-uygulamasi',
+      liveUrl: null,
+      category: 'mobile',
+      featured: false,
+      status: 'Tamamlandı'
+    },
+    {
+      id: 7,
+      title: 'OBS Ticaret',
+      description: 'Ticaret Üniversitesi öğrenci-akademisyen bilgi sistemi için alternatif bir uygulama.',
+      longDescription: 'Java programlama dili ile geliştirilen bu proje, öğrencilerin ve akademisyenlerin okul sistemine mobil bir arayüz üzerinden erişmesini sağlar.',
+      image: '/images/project-obs.jpg',
+      technologies: ['Java'],
+      githubUrl: 'https://github.com/GeW1chT/Obs_Ticaret',
+      liveUrl: null,
+      category: 'mobile',
+      featured: true,
+      status: 'Tamamlandı'
+    }
+]
 
   const categories = [
     { id: 'all', name: 'Tümü', count: projects.length },

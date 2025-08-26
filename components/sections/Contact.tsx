@@ -37,15 +37,15 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'berater@example.com',
-      href: 'mailto:berater@example.com',
+      value: 'beratmurat1453@gmail.com',
+      href: 'mailto:beratmurat1453@gmail.com',
       description: 'Projeler ve işbirliği için'
     },
     {
       icon: Phone,
       title: 'Telefon',
-      value: '+90 5XX XXX XX XX',
-      href: 'tel:+905xxxxxxxxx',
+      value: '+90 551 204 63 42',
+      href: 'tel:+905512046342',
       description: 'Acil durumlar için'
     },
     {
@@ -61,13 +61,13 @@ export default function Contact() {
     {
       icon: Github,
       name: 'GitHub',
-      href: 'https://github.com/beratergun',
+      href: 'https://github.com/GeW1chT',
       description: 'Kodlarımı inceleyin'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      href: 'https://linkedin.com/in/beratergun',
+      href: 'https://www.linkedin.com/in/berat-erg%C3%BCn-1b4269258/',
       description: 'Profesyonel ağım'
     }
   ]

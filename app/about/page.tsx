@@ -44,8 +44,8 @@ export default function AboutPage() {
 
   const personalInfo = [
     { icon: MapPin, label: 'Konum', value: 'İstanbul, Türkiye' },
-    { icon: Calendar, label: 'Yaş', value: '23' },
-    { icon: Mail, label: 'Email', value: 'berat@example.com' }
+    { icon: Calendar, label: 'Yaş', value: '19' },
+    { icon: Mail, label: 'Email', value: 'beratmurat1453@gmail.com' }
   ]
 
   return (
@@ -114,7 +114,7 @@ export default function AboutPage() {
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
               Üniversite eğitimim boyunca çeşitli projeler geliştirdim ve farklı teknolojilerle 
               deneyimler kazandım. Web geliştirmeden mobil uygulamalara kadar geniş bir yelpazede 
-              kendimi geliştirme fırsatı buldum. Özellikle <strong className="text-blue-600 dark:text-blue-400">React</strong> 
+              kendimi geliştirme fırsatı buldum. Özellikle <strong className="text-blue-600 dark:text-blue-400">React </strong> 
               ve <strong className="text-purple-600 dark:text-purple-400">Flutter</strong> teknolojilerine olan ilgim, 
               kariyer yolumu şekillendirdi.
             </p>

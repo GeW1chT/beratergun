@@ -6,61 +6,61 @@ import Link from 'next/link'
 export default function Projects() {
   // Bu veriyi sonra lib/data.ts'den çekebilirsin
   const featuredProjects = [
-    {
-      id: 1,
-      title: 'E-Ticaret Platformu',
-      description: 'Modern e-ticaret sitesi. Ürün katalogu, sepet sistemi, ödeme entegrasyonu ve admin paneli içeriyor.',
-      image: '/images/project-ecommerce.jpg',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Prisma', 'PostgreSQL'],
-      githubUrl: 'https://github.com/beratergun/ecommerce-platform',
-      liveUrl: 'https://ecommerce-demo.vercel.app',
-      type: 'web',
-      featured: true
-    },
-    {
-      id: 2,
-      title: 'Görev Yönetim Uygulaması',
-      description: 'Flutter ile geliştirilen mobil görev takip uygulaması. Offline çalışma, senkronizasyon ve bildirim özellikleri.',
-      image: '/images/project-taskapp.jpg',
-      technologies: ['Flutter', 'Dart', 'Firebase', 'Riverpod', 'Hive'],
-      githubUrl: 'https://github.com/beratergun/task-manager-flutter',
-      liveUrl: null,
-      type: 'mobile',
-      featured: true
-    },
-    {
-      id: 3,
-      title: 'Kişisel Blog Sistemi',
-      description: 'MDX destekli blog sitesi. SEO optimizasyonu, dark mode ve dinamik içerik yönetimi.',
-      image: '/images/project-blog.jpg',
-      technologies: ['Next.js', 'MDX', 'TypeScript', 'Tailwind CSS'],
-      githubUrl: 'https://github.com/beratergun/personal-blog',
-      liveUrl: 'https://berater-blog.vercel.app',
-      type: 'web',
-      featured: true
-    }
-  ]
+    {
+      id: 1,
+      title: 'Üsküdar İcadiye Spor',
+      description: 'Üsküdar İcadiye Spor kulübü için tasarlanmış modern web sitesi.',
+      image: '/images/project-uskudar.jpg',
+      technologies: ['TypeScript', 'JavaScript', 'CSS'],
+      githubUrl: 'https://github.com/GeW1chT/uskudar-icadiyespor',
+      liveUrl: 'https://uskudar-icadiyespor.vercel.app',
+      type: 'web',
+      featured: true
+    },
+    {
+      id: 2,
+      title: 'Ortakya',
+      description: 'Next.js ile geliştirilen gerçek zamanlı sosyal medya platformu.',
+      image: '/images/project-ortakya.jpg',
+      technologies: ['Next.js', 'JavaScript', 'TypeScript', 'CSS'],
+      githubUrl: 'https://github.com/GeW1chT/ortakya',
+      liveUrl: null,
+      type: 'web',
+      featured: true
+    },
+    {
+      id: 3,
+      title: 'CVerly',
+      description: 'Modern ve profesyonel CV’ler oluşturabileceğiniz web sitesi.',
+      image: '/images/project-cverly.jpg',
+      technologies: ['TypeScript', 'CSS', 'JavaScript'],
+      githubUrl: 'https://github.com/GeW1chT/CVerly',
+      liveUrl: 'https://cverly.vercel.app',
+      type: 'web',
+      featured: true
+    }
+  ]
 
   const otherProjects = [
-    {
-      title: 'Weather App',
-      description: 'Hava durumu API entegrasyonu ile çalışan Flutter uygulaması',
-      technologies: ['Flutter', 'REST API', 'BLoC'],
-      githubUrl: 'https://github.com/beratergun/weather-app'
-    },
-    {
-      title: 'URL Shortener',
-      description: 'Link kısaltma servisi - Next.js ve MongoDB ile',
-      technologies: ['Next.js', 'MongoDB', 'TypeScript'],
-      githubUrl: 'https://github.com/beratergun/url-shortener'
-    },
-    {
-      title: 'Expense Tracker',
-      description: 'Kişisel harcama takip uygulaması',
-      technologies: ['React', 'Chart.js', 'Local Storage'],
-      githubUrl: 'https://github.com/beratergun/expense-tracker'
-    }
-  ]
+    {
+      title: 'Mizan Yönetim Uygulaması',
+      description: 'Mizan yönetim paneli için geliştirilen bir mobil uygulama.',
+      technologies: ['Dart', 'C++', 'CMake'],
+      githubUrl: 'https://github.com/GeW1chT/mizan_yonetim_app'
+    },
+    {
+      title: 'Logomania',
+      description: 'Futbol, basketbol gibi spor dallarının logolarını tahmin etmeye dayalı mobil oyun.',
+      technologies: ['Dart', 'C++', 'CMake', 'Swift'],
+      githubUrl: 'https://github.com/GeW1chT/logomania'
+    },
+    {
+      title: 'OBS Ticaret',
+      description: 'Ticaret Üniversitesi öğrenci-akademisyen bilgi sistemi için alternatif bir uygulama.',
+      technologies: ['Java'],
+      githubUrl: 'https://github.com/GeW1chT/Obs_Ticaret'
+    }
+  ]
 
   return (
     <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-800">
