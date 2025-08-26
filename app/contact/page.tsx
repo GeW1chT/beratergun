@@ -48,7 +48,7 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: 'Telefon',
-      value: '+90 5512046342',
+      value: '+90 551 204 63 42',
       href: 'tel:+905512046342',
       description: 'Acil durumlar ve görüşme için',
       availability: '09:00 - 18:00 arası'
