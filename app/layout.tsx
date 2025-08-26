@@ -7,12 +7,12 @@ import Footer from '@/components/layout/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Berater Gün - Full Stack Developer',
+  title: 'Berat Ergün - Full Stack Developer',
   description: 'Next.js ve Flutter ile modern web ve mobil uygulamalar geliştiriyorum.',
   keywords: ['Next.js', 'TypeScript', 'Flutter', 'Full Stack Developer', 'Web Development'],
-  authors: [{ name: 'Berater Gün' }],
+  authors: [{ name: 'Berat Ergün' }],
   openGraph: {
-    title: 'Berater Gün - Full Stack Developer',
+    title: 'Berat Ergün - Full Stack Developer',
     description: 'Next.js ve Flutter ile modern web ve mobil uygulamalar geliştiriyorum.',
     type: 'website',
   },
